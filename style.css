@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container-head{
+    background-image: url(imge.folder/one-bg.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: 100%;
+    box-shadow: 1px 2px 4px rgb(45, 45, 253,0.4);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    background-color:rgba(31, 31, 255, 0.155);
+}
+header .left-part{
+    width: 30%;
+    margin-top: -10px;
+
+}
+.left-part img{
+    width: 90px;
+    cursor: pointer;
+}
+.right-part{
+    width: 70%;
+    margin-top: 20px;
+    text-align: end;
+    margin-right: 30px;
+}
+.right-part a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.right-part a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    transition: 0.5s all ease-in;
+}
+.right-part i{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.others-head{
+    width: 700px;
+    margin: 130px auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.others-head h1{
+    font-size: 50px;
+    word-spacing: 10px;
+    color: rgb(255, 255, 255);
+}
+.others-head p{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 70px;
+}
+.others-head button{
+    text-align: center;
+    margin-top:30px ;
+    font-size: 15px;
+    padding: 10px 60px;
+    border: none;
+    outline: none;
+    background-color:rgba(255, 242, 0, 0.598);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 22px;
+}
+.others-head button:hover{
+    background-color: rgba(0, 0, 255, 0.444) ;
+    color: white;
+    transition: 0.5s ease;
+}
+.main-1{
+    background-image: url(imge.folder/two-bg.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    
+    background-size: 100%;
+    box-shadow: 1px 2px 4px rgb(45, 45, 253,0.4);
+}
+.main-1 .text-part {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto ;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.text-part h1{
+padding: 20px;
+}
+
+.next-part{
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+.div1 h3{
+    padding: 20px;
+    font-size: 25px;
+}
+.div1 p{
+    text-align: justify;
+}
+.next-part .div1 img{
+    width: 150px;
+    border-radius: 50%;
+}
+.main-2{
+    background-image: url(imge.folder/three-bg.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: 100%;
+    margin-top: -40px;
+    margin-bottom: -20px;
+}
+
+.main-2 .mext-part{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto ;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.mext-part h1{
+    padding: 50px;
+}
+    
+.top-part{
+    width: 95%px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+.top-part .div2, .div3, .div4{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.div2, .div3, .div4 h2,p{
+    text-align: center;
+}
+.div2 h2{
+    margin-top: 45px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.div2 p{
+    margin-top: 0px;
+}
+.div3 h2{
+    margin-top: 45px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.div3 p{
+    margin-top: 0px;
+}
+.div4 h2{
+    margin-top: 45px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.div4 p{
+    margin-top: 0px;
+}
+.div2, .div3, .div4 p{
+    color: white;
+    text-align: center;
+}
+.main-3{
+    width: 100%;
+    background-color: rgb(19, 103, 249);
+    display: flex;
+    height: 550px;
+    flex-direction: row;
+}
+.main-3 .border{
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    margin: 100px auto;
+    text-align: center;
+    color: rgb(51, 51, 240);
+    border-radius: 10px;
+
+}
+.border h1,p{
+    margin-top: 35px;
+}
+.border button{
+    padding: 12px 40px;
+    margin-top: 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgb(220, 176, 2);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.border button:hover{
+    background-color: rgb(3, 30, 211);
+    color: black;
+    transition: 0.5s ease;
+}
+.main-4{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(113, 113, 255, 0.878);
+    color: white;
+
+}
+.main-4 .top{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+.top h1{
+   padding-top: 35px;
+   word-spacing: 3px;
+   text-decoration: underline;
+}
+.bottom{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .bootom1{
+    width: 40%;
+    margin-top:0 ;
+    margin-left: 50px;
+}
+.bootom1 h1{
+    text-align: left;
+    padding: 10px 0;
+}
+.bootom1 p{
+    text-align: justify;
+    margin-top: -0px;
+}
+
+.bootomb{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+.bootomb .bootom2{
+    width: 40%;
+    margin-left: 50px;
+}
+.bootom2 h1{
+    text-align: left;
+    padding: 10px 0;
+}
+.bootom2 p{
+    text-align: justify;
+    margin-top: 0;
+}
+.main5{
+    background-image: url(imge.folder/five-bg.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 100%;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.main5 p{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 240px;
+}
+.main5 h3{
+    color: rgb(0, 44, 190);
+    text-align: center;
+    font-size: 45px;
+    width: 50%;
+    margin: 25px auto;
+
+}
+.footer{
+    width: 100%;
+    background-color: rgb(47, 45, 45);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 15px;
+}
+
+.footer .left-fot{
+    margin: 50px auto;
+    width: 35%;
+    text-align: center;
+}
+.footer .right-fot{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: white;
+    text-align: center;
+    margin-right: 60px;
+    padding: 50px 0;
+    text-decoration: underline;
+}
+.one{
+    padding-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.Two{
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.Three{
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 720px) {
+    .container-head{
+        background-size: 100% 550px;
+    }
+    header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        background:none ;
+    }
+
+    .left-part {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .right-part {
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .right-part a {
+        display: block;
+        padding: 10px 0;
+        margin-right: 0;
+    }
+
+    .others-head {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .others-head h1 {
+        font-size: 35px;
+        color: black;
+    }
+
+    .others-head p {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+    }
+    .others-head button{
+
+    }
+
+    .main-1 .text-part {
+        width: 90%;
+    }
+
+    .next-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div1 {
+        width: 80%;
+        margin-top: 50px;
+        color: black;
+    }
+    .main-2{
+        width: 100%;
+        height: 1050px;
+        color: black;
+    }
+    .main-2 .mext-part{
+        width: 90%;
+    }
+    .mext-part{
+        flex-direction: column;
+        align-items: center;
+        color: black;
+    }
+    .div2, .div3, .div4{
+        color: black;
+    }
+
+    .top-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-part .div2,
+    .div3,
+    .div4 {
+        border: 5px solid black;
+        margin-top: 100px;
+        color: black;
+    }
+    .div2 h2{
+        color: black;
+    }
+    .div3 h2{
+        color: black;
+    }
+    .div4 h2{
+        color: black;
+    }
+
+
+    .main-3 {
+        height: 1050px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-3 .border {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .main-4 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .bottom,
+    .bootomb {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom .bootom1,
+    .bootomb .bootom2 {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .main5{
+        background-size: 100% 500px;
+        padding-bottom: 50px;
+    }
+
+    .main5 p,
+    .main5 h3 {
+        width: 90%;
+        padding-top: 100px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .left-fot,
+    .footer .right-fot {
+        width: 100%;
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+    .right-fot .one,
+    .right-fot .Two,
+    .right-fot .Three {
+        padding-left: 0;
+        margin: 0px 35px;
+    }
+}
